@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desarrollo/css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="image">
+        <div class="todo">
+            <div class="div2">
+                <h2>TIENDA <span>DEPORTIVA</span></h2>
+            </div>
+            <form class="form" id="form-FacturaXproducto">
+                Cantidad: <input class="input" type="number" name="Cantidad" /><br />
+                Valor cantidad por precio: <input class="input" type="number" name="ValorCantidadXprecio" /><br />
+                <label for="Producto">selecciona un producto:</label><br>
+                <select name="producto" id="producto">
+                </select><br>
+                <label for="factura">selecciona una factura:</label><br>
+                <select name="factura" id="factura">
+                </select><br>
+                <center><input class="btn" type="button" value="Crear valor-Producto" onclick="crearValorxCantProducto()" />
+                </center>
+
+            </form>
+            <br />
+
+            <form action="Main.html" method="POST">
+                <center><input class="btn" type="submit" value="Volver al menú" href="Factura.html" /></center>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

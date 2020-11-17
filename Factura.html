@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="desarrollo/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="desarrollo/js/Factura.js"></script>
+
+    <title>Factura</title>
+</head>
+
+<body background= "desarrollo/images/fondo4.png">
+    <div class="todo">
+        <div class="div2">
+            <h2>TIENDA <span>DEPORTIVA</span></h2>
+        </div>
+
+        <form class="form" id="form-factura">
+            Valor total: <input class="input" type="number" name="Valor" /><br />
+            Iva : <input class="input" type="number" name="Iva" /><br />
+            <center><input class="btn" type="button" value="Crear Factura" onclick="crearFactura()" /></center>
+        </form> <br/>
+        <form action="Main.html" method="POST">
+            <center><input class="btn" type="submit" value="Volver al menú" href="Factura.html" /></center>
+        </form>
+
+
+    </div>
+</body>
+
+</html>

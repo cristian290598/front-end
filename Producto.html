@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="desarrollo/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="desarrollo/js/Producto.js"></script>
+
+    <title>Producto</title>
+</head>
+
+<body background="desarrollo/images/fondo6.png">
+    <div class="image">
+        <div class="todo">
+            <div class="div2">
+                <h2>TIENDA <span>DEPORTIVA</span></h2>
+            </div>
+            <form class="form" id="form-producto">
+                Nombre del producto: <input class="input" type="Text" name="nombreProducto" /><br />
+                Cantidad al por mayor : <input class="input" type="number" name="cantidadXMayor" /><br />
+                Precio Unidad: <input class="input" type="number" name="Precio" /><br />
+                <center><input class="btn" type="button" value="Crear Producto" onclick="crearProducto()" /></center>
+                <center><input class="btn" type="button" value="Listar Productos" onclick="listarProducto()" /></center>
+            </form>
+            <br />
+
+            <form action="Main.html" method="POST">
+                <center><input class="btn" type="submit" value="Volver al menú" href="Factura.html" /></center>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
